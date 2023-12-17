@@ -1,0 +1,16 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - inform
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_default:
+    - text: "I'm sorry, I didn't understand. Can you please rephrase?"
